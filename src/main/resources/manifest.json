@@ -1,11 +1,11 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "GoldToolsAndArmor",
+    "Name": "GoldToolsAndArmor",
+    "Version": "1.0.0",
+    "Description": "GoldToolsAndArmor",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Denos"
         }
     ],
     "Website": "example.org",
