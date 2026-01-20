@@ -1,0 +1,39 @@
+{
+  "Parent": "Template_Weapon_Shield",
+  "TranslationProperties": {
+    "Name": "Golden Shield",
+    "Description": "A sturdy golden shield"
+  },
+  "Model": "Items/GoldenShield.blockymodel",
+  "Texture": "Items/GoldenShield.png",
+  "Icon": "Icons/ItemsGenerated/GoldenShieldIcon.png",
+  "Quality": "Rare",
+  "ItemLevel": 20,
+  "InteractionVars": {
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Shield_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 15.56,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    }
+  },
+  "MaxDurability": 160,
+  "DurabilityLossOnHit": 0.25,
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      39,
+      101,
+      0
+    ],
+    "Translation": [
+      -27,
+      -34
+    ]
+  }
+}
