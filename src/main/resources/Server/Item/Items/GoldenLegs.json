@@ -5,7 +5,7 @@
     "Description": "Protective golden leggings"
   },
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
   "Icon": "Icons/ItemsGenerated/GoldenLegsIcon.png",
   "IconProperties": {
     "Scale": 0.415,
@@ -69,13 +69,13 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 14,
+          "Amount": 19,
           "CalculationType": "Additive"
         }
       ]
     }
   },
-  "MaxDurability": 100,
+  "MaxDurability": 140,
   "Tags": {
     "Type": [
       "Armor"

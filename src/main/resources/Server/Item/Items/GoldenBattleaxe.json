@@ -1,14 +1,42 @@
 {
   "Parent": "Template_Weapon_Battleaxe",
   "TranslationProperties": {
-    "Name": "Test Battleaxe",
-    "Description": "A powerful golden sword"
+    "Name": "Golden Battleaxe",
+    "Description": "A powerful golden battleaxe"
   },
   "Model": "Items/GoldenBattleaxe.blockymodel",
   "Texture": "Items/GoldenBattleaxe.png",
   "Icon": "Icons/ItemsGenerated/GoldenBattleaxeIcon.png",
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Wood_Fir_Trunk",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Battleaxe"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
   "InteractionVars": {
     "Swing_Down_Damage": {
       "Interactions": [

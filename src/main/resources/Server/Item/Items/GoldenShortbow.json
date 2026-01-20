@@ -8,7 +8,39 @@
   "Texture": "Items/GoldenShortbow.png",
   "Icon": "Icons/ItemsGenerated/GoldenShortbowIcon.png",
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Wood_Fir_Trunk",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
   "InteractionVars": {
     "Primary_Shoot_Damage_Strength_0": {
       "Interactions": [
@@ -16,7 +48,7 @@
           "Parent": "Weapon_Shortbow_Primary_Shoot_Damage_Strength_0",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 8
+              "Projectile": 9
             }
           },
           "EntityStatsOnHit": [
@@ -34,7 +66,7 @@
           "Parent": "Weapon_Shortbow_Primary_Shoot_Damage_Strength_1",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 13
+              "Projectile": 15
             }
           },
           "EntityStatsOnHit": [
@@ -52,7 +84,7 @@
           "Parent": "Weapon_Shortbow_Primary_Shoot_Damage_Strength_2",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 17
+              "Projectile": 20
             }
           },
           "EntityStatsOnHit": [
@@ -70,7 +102,7 @@
           "Parent": "Weapon_Shortbow_Primary_Shoot_Damage_Strength_3",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 21
+              "Projectile": 24
             }
           },
           "EntityStatsOnHit": [
@@ -88,7 +120,7 @@
           "Parent": "Weapon_Shortbow_Primary_Shoot_Damage_Strength_4",
           "DamageCalculator": {
             "BaseDamage": {
-              "Projectile": 25
+              "Projectile": 29
             }
           },
           "EntityStatsOnHit": [

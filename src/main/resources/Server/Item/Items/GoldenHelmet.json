@@ -5,7 +5,7 @@
     "Description": "A protective golden helmet"
   },
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
   "Icon": "Icons/ItemsGenerated/GoldenHelmetIcon.png",
   "IconProperties": {
     "Scale": 0.45,
@@ -71,13 +71,13 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 10,
+          "Amount": 14,
           "CalculationType": "Additive"
         }
       ]
     }
   },
-  "MaxDurability": 100,
+  "MaxDurability": 140,
   "Tags": {
     "Type": [
       "Armor"

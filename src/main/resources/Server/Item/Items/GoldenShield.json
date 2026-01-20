@@ -8,7 +8,35 @@
   "Texture": "Items/GoldenShield.png",
   "Icon": "Icons/ItemsGenerated/GoldenShieldIcon.png",
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 8
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Wood_Fir_Trunk",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Shield"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
   "InteractionVars": {
     "Guard_Wield": {
       "Interactions": [

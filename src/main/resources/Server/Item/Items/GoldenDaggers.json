@@ -8,7 +8,35 @@
   "Texture": "Items/GoldenDaggers.png",
   "Icon": "Icons/ItemsGenerated/GoldenDaggersIcon.png",
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Wood_Fir_Trunk",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Daggers"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
   "InteractionVars": {
     "Swing_Left_Damage": {
       "Interactions": [
@@ -16,7 +44,7 @@
           "Parent": "Weapon_Daggers_Primary_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 3
+              "Physical": 4
             }
           },
           "DamageEffects": {
@@ -33,7 +61,7 @@
           "Parent": "Weapon_Daggers_Primary_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 4
+              "Physical": 5
             }
           },
           "DamageEffects": {
@@ -50,7 +78,7 @@
           "Parent": "Weapon_Daggers_Primary_Stab_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 14
+              "Physical": 16
             }
           },
           "DamageEffects": {
@@ -67,7 +95,7 @@
           "Parent": "Weapon_Daggers_Primary_Stab_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 16
+              "Physical": 19
             }
           },
           "DamageEffects": {
@@ -84,7 +112,7 @@
           "Parent": "Weapon_Daggers_Primary_Pounce_Sweep_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 42
+              "Physical": 49
             }
           },
           "EntityStatsOnHit": [
@@ -154,7 +182,7 @@
           "Parent": "Weapon_Daggers_Primary_Pounce_Stab_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 52
+              "Physical": 61
             }
           },
           "EntityStatsOnHit": [
@@ -224,7 +252,7 @@
           "Parent": "Weapon_Daggers_Signature_Razorstrike_Slash_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 33
+              "Physical": 39
             }
           },
           "EntityStatsOnHit": [
@@ -290,7 +318,7 @@
           "Parent": "Weapon_Daggers_Signature_Razorstrike_Sweep_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 42
+              "Physical": 49
             }
           },
           "EntityStatsOnHit": [
@@ -356,7 +384,7 @@
           "Parent": "Weapon_Daggers_Signature_Razorstrike_Lunge_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 50
+              "Physical": 58
             }
           },
           "EntityStatsOnHit": [

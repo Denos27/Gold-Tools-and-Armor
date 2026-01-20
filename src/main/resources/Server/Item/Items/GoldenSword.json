@@ -8,7 +8,35 @@
   "Texture": "Items/GoldenSword.png",
   "Icon": "Icons/ItemsGenerated/GoldenSwordIcon.png",
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
+  "Recipe": {
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Wood_Fir_Trunk",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Sword"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
   "InteractionVars": {
     "Swing_Left_Damage": {
       "Interactions": [
@@ -16,7 +44,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 14
             }
           },
           "DamageEffects": {
@@ -32,7 +60,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Right_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 15
+              "Physical": 16
             }
           },
           "DamageEffects": {
@@ -48,7 +76,7 @@
           "Parent": "Weapon_Sword_Primary_Swing_Down_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 24
+              "Physical": 28
             }
           },
           "DamageEffects": {
@@ -64,7 +92,7 @@
           "Parent": "Weapon_Sword_Primary_Thrust_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 35
+              "Physical": 41
             }
           },
           "DamageEffects": {
@@ -80,7 +108,7 @@
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Spin_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 25
+              "Physical": 29
             }
           },
           "DamageEffects": {
@@ -96,7 +124,7 @@
           "Parent": "Weapon_Sword_Signature_Vortexstrike_Stab_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 75
+              "Physical": 87
             }
           },
           "DamageEffects": {

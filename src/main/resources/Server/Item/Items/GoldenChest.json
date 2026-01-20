@@ -5,7 +5,7 @@
     "Description": "A sturdy golden chestplate"
   },
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
   "Icon": "Icons/ItemsGenerated/GoldenChestIcon.png",
   "IconProperties": {
     "Scale": 0.4,
@@ -69,13 +69,13 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 18,
+          "Amount": 24,
           "CalculationType": "Additive"
         }
       ]
     }
   },
-  "MaxDurability": 100,
+  "MaxDurability": 140,
   "Tags": {
     "Type": [
       "Armor"

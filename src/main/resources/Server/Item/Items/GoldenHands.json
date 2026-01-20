@@ -5,7 +5,7 @@
     "Description": "Strong golden gauntlets"
   },
   "Quality": "Rare",
-  "ItemLevel": 20,
+  "ItemLevel": 39,
   "Icon": "Icons/ItemsGenerated/GoldenHandsIcon.png",
   "IconProperties": {
     "Scale": 0.645,
@@ -65,13 +65,13 @@
     "StatModifiers": {
       "Health": [
         {
-          "Amount": 8,
+          "Amount": 11,
           "CalculationType": "Additive"
         }
       ]
     }
   },
-  "MaxDurability": 100,
+  "MaxDurability": 140,
   "Tags": {
     "Type": [
       "Armor"
