@@ -1,0 +1,91 @@
+{
+  "Parent": "Tool_Pickaxe_Crude",
+  "TranslationProperties": {
+    "Name": "Golden Pickaxe",
+    "Description": "A powerful golden pickaxe"
+  },
+  "Model": "Items/GoldenPickaxe.blockymodel",
+  "Texture": "Items/GoldenPickaxe.png",
+  "Icon": "Icons/ItemsGenerated/GoldenPickaxeIcon.png",
+  "Quality": "Rare",
+  "ItemLevel": 20,
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Wood_Fir_Trunk",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 1,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 0.05,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Rocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.17,
+        "GatherType": "VolcanicRocks"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "MaxDurability": 350,
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      24,
+      -29
+    ]
+  }
+}
