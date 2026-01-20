@@ -1,0 +1,89 @@
+{
+  "Parent": "Armor_Iron_Chest",
+  "TranslationProperties": {
+    "Name": "Golden Chestplate",
+    "Description": "A sturdy golden chestplate"
+  },
+  "Quality": "Rare",
+  "ItemLevel": 20,
+  "Icon": "Icons/ItemsGenerated/GoldenChestIcon.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0.3,
+      -6.9
+    ]
+  },
+  "Model": "Items/GoldenChest.blockymodel",
+  "Texture": "Items/GoldenChest.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 24
+      },
+      {
+        "ItemId": "Ingredient_Leather",
+        "Quantity": 7
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Armor_Bench",
+        "Type": "Crafting",
+        "Categories": [
+          "Armor_Chest"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ],
+    "KnowledgeRequired": false,
+    "TimeSeconds": 3
+  },
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop",
+      "Undertop"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.10,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.10,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 18,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 100,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Gold"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "DurabilityLossOnHit": 0.5
+}
